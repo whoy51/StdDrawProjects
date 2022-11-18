@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b061fd05-ab1d-4e99-85b0-3ae9d9b791d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DrawThingy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BouncyBall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BouncyCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CheckerBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GraphicsFun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StdDraw.java" afterDir="false" />
+    <list default="true" id="b061fd05-ab1d-4e99-85b0-3ae9d9b791d3" name="Changes" comment="Add code">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BouncyBall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BouncyBall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BouncyCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BouncyCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StdDraw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StdDraw.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +47,7 @@
       <recent name="C:\Users\9258830\IdeaProjects\DrawThingy\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BouncyBall">
+  <component name="RunManager" selected="Application.BouncyCircle">
     <configuration name="BouncyBall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BouncyBall" />
       <module name="DrawThingy" />
@@ -93,8 +85,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BouncyBall" />
         <item itemvalue="Application.BouncyCircle" />
+        <item itemvalue="Application.BouncyBall" />
         <item itemvalue="Application.FollowMouse" />
         <item itemvalue="Application.CheckerBoard" />
         <item itemvalue="Application.GraphicsFun" />
@@ -110,6 +102,14 @@
       <option name="presentableId" value="Default" />
       <updated>1667221606959</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add code">
+      <created>1668782166884</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668782166884</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,15 +123,8 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BouncyBall.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add code" />
   </component>
 </project>

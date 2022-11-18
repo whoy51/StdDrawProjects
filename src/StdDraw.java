@@ -685,6 +685,19 @@ public final class StdDraw implements ActionListener, MouseListener, MouseMotion
         height = canvasHeight;
         init();
     }
+    /**
+     * Returns a Color with random RGB values
+     *
+     * @param alpha the opacity of the color
+     * @return Color rgb value
+     * @throws IllegalArgumentException if alpha is not between 1.0 and 155.
+     */
+    public static Color randomColor(int alpha){
+        int r = (int) (Math.random() * 256);
+        int g = (int) (Math.random() * 256);
+        int b = (int) (Math.random() * 256);
+        return new Color(r, g, b, alpha);
+    }
 
     // init
     private static void init() {

@@ -1,5 +1,4 @@
-import java.awt.*;
-import java.util.HashMap;
+import java.awt.Color;
 
 public class BouncyBall {
     static boolean holdInProgress = false;
@@ -9,9 +8,6 @@ public class BouncyBall {
     static double ballVX = 0;
     static double ballVY = 0;
     public static void main(String[] args) {
-        HashMap<Integer, String> hashMap = new HashMap<>();
-        hashMap.put(2, "hi");
-        System.out.println(hashMap.get(2));
         StdDraw.enableDoubleBuffering();
 
         StdDraw.setCanvasSize(400, 400);
