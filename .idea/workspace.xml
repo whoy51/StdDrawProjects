@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b061fd05-ab1d-4e99-85b0-3ae9d9b791d3" name="Changes" comment="Add code">
+    <list default="true" id="b061fd05-ab1d-4e99-85b0-3ae9d9b791d3" name="Changes" comment="Add new method to StdDraw.java library.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BouncyBall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BouncyBall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BouncyCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BouncyCircle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StdDraw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StdDraw.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +45,7 @@
       <recent name="C:\Users\9258830\IdeaProjects\DrawThingy\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BouncyCircle">
+  <component name="RunManager" selected="Application.BouncyBall">
     <configuration name="BouncyBall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BouncyBall" />
       <module name="DrawThingy" />
@@ -85,8 +83,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BouncyCircle" />
         <item itemvalue="Application.BouncyBall" />
+        <item itemvalue="Application.BouncyCircle" />
         <item itemvalue="Application.FollowMouse" />
         <item itemvalue="Application.CheckerBoard" />
         <item itemvalue="Application.GraphicsFun" />
@@ -109,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668782166884</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add new method to StdDraw.java library.">
+      <created>1668783634198</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668783634198</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +130,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add code" />
+    <MESSAGE value="Add new method to StdDraw.java library." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new method to StdDraw.java library." />
   </component>
 </project>
