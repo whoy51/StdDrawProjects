@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b061fd05-ab1d-4e99-85b0-3ae9d9b791d3" name="Changes" comment="Add new method to StdDraw.java library.">
+    <list default="true" id="b061fd05-ab1d-4e99-85b0-3ae9d9b791d3" name="Changes" comment="Rename and remove debug">
+      <change afterPath="$PROJECT_DIR$/src/PongGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StdDraw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StdDraw.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +45,16 @@
       <recent name="C:\Users\9258830\IdeaProjects\DrawThingy\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.PongGame">
     <configuration name="CheckerBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CheckerBoard" />
+      <module name="DrawThingy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CircleAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CircleAlgorithm" />
       <module name="DrawThingy" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -60,13 +67,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FollowMouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FollowMouse" />
-      <module name="DrawThingy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GravityBall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GravityBall" />
       <module name="DrawThingy" />
@@ -74,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="PongGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PongGame" />
       <module name="DrawThingy" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,11 +83,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.PongGame" />
+        <item itemvalue="Application.CircleAlgorithm" />
         <item itemvalue="Application.ControlledBall" />
         <item itemvalue="Application.GravityBall" />
         <item itemvalue="Application.CheckerBoard" />
-        <item itemvalue="Application.FollowMouse" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +114,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668783634198</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Rename files">
+      <created>1668971320545</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668971320545</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Rename and remove debug">
+      <created>1668971467238</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668971467238</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,6 +145,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add code" />
     <MESSAGE value="Add new method to StdDraw.java library." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add new method to StdDraw.java library." />
+    <MESSAGE value="Rename files" />
+    <MESSAGE value="Rename and remove debug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename and remove debug" />
   </component>
 </project>
