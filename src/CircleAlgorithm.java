@@ -1,7 +1,7 @@
 import java.awt.*;
 import java.util.Scanner;
 
-public class Main {
+public class CircleAlgorithm {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -14,9 +14,7 @@ public class Main {
             double y = Math.random();
             Color color = Color.BLACK;
             if ((x * x) + (y * y) > 1){
-                System.out.println("outside of circle");
             }else {
-                System.out.println("in circle");
                 color = Color.MAGENTA;
                 innerPoints++;
             }

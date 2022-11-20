@@ -45,23 +45,16 @@
       <recent name="C:\Users\9258830\IdeaProjects\DrawThingy\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BouncyBall">
-    <configuration name="BouncyBall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BouncyBall" />
-      <module name="DrawThingy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BouncyCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BouncyCircle" />
-      <module name="DrawThingy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="CheckerBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CheckerBoard" />
+      <module name="DrawThingy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControlledBall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ControlledBall" />
       <module name="DrawThingy" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,8 +67,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GraphicsFun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GraphicsFun" />
+    <configuration name="GravityBall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GravityBall" />
+      <module name="DrawThingy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="DrawThingy" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,11 +83,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BouncyBall" />
-        <item itemvalue="Application.BouncyCircle" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ControlledBall" />
+        <item itemvalue="Application.GravityBall" />
         <item itemvalue="Application.CheckerBoard" />
         <item itemvalue="Application.FollowMouse" />
-        <item itemvalue="Application.GraphicsFun" />
       </list>
     </recent_temporary>
   </component>
