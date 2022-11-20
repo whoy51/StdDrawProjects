@@ -1,6 +1,6 @@
 import java.awt.Color;
 
-public class BouncyBall {
+public class ControlledBall {
     static boolean holdInProgress = false;
     static boolean mouseState = false;
     static double ballX = 0.5;

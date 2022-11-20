@@ -1,6 +1,4 @@
-import java.awt.Color;
-
-public class BouncyCircle {
+public class GravityBall {
     public static void main(String[] args) {
         double xCtr = 0.5;
         double yCtr = 0.5;

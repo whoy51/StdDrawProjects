@@ -85,8 +85,8 @@
       <list>
         <item itemvalue="Application.BouncyBall" />
         <item itemvalue="Application.BouncyCircle" />
-        <item itemvalue="Application.FollowMouse" />
         <item itemvalue="Application.CheckerBoard" />
+        <item itemvalue="Application.FollowMouse" />
         <item itemvalue="Application.GraphicsFun" />
       </list>
     </recent_temporary>
