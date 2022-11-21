@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b061fd05-ab1d-4e99-85b0-3ae9d9b791d3" name="Changes" comment="Add comments to PongGame.java.">
+    <list default="true" id="b061fd05-ab1d-4e99-85b0-3ae9d9b791d3" name="Changes" comment="Ah yes">
+      <change afterPath="$PROJECT_DIR$/src/TwoPlayerPong.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PongGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PongGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,14 +45,7 @@
       <recent name="C:\Users\9258830\IdeaProjects\DrawThingy\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PongGame">
-    <configuration name="CheckerBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CheckerBoard" />
-      <module name="DrawThingy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TwoPlayerPong">
     <configuration name="CircleAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CircleAlgorithm" />
       <module name="DrawThingy" />
@@ -81,13 +74,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoPlayerPong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoPlayerPong" />
+      <module name="DrawThingy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoPlayerPong" />
         <item itemvalue="Application.PongGame" />
         <item itemvalue="Application.CircleAlgorithm" />
         <item itemvalue="Application.ControlledBall" />
         <item itemvalue="Application.GravityBall" />
-        <item itemvalue="Application.CheckerBoard" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668974457355</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Ah yes">
+      <created>1669039912067</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669039912067</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,6 +170,10 @@
     <MESSAGE value="Rename and remove debug" />
     <MESSAGE value="Add pong game" />
     <MESSAGE value="Add comments to PongGame.java." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add comments to PongGame.java." />
+    <MESSAGE value="Ah yes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ah yes" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DrawThingy$PongGame.ic" NAME="PongGame Coverage Results" MODIFIED="1669039807838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
