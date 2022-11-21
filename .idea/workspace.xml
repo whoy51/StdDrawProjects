@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b061fd05-ab1d-4e99-85b0-3ae9d9b791d3" name="Changes" comment="Rename and remove debug">
-      <change afterPath="$PROJECT_DIR$/src/PongGame.java" afterDir="false" />
+    <list default="true" id="b061fd05-ab1d-4e99-85b0-3ae9d9b791d3" name="Changes" comment="Add comments to PongGame.java.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PongGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PongGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +128,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668971467238</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add pong game">
+      <created>1668974274602</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668974274602</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add comments to PongGame.java.">
+      <created>1668974457355</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668974457355</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +161,8 @@
     <MESSAGE value="Add new method to StdDraw.java library." />
     <MESSAGE value="Rename files" />
     <MESSAGE value="Rename and remove debug" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rename and remove debug" />
+    <MESSAGE value="Add pong game" />
+    <MESSAGE value="Add comments to PongGame.java." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add comments to PongGame.java." />
   </component>
 </project>

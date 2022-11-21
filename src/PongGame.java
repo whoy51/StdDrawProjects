@@ -7,7 +7,7 @@ public class PongGame {
         double ballX = 0.5;
         double ballY = 0.5;
         double ballVX = 0.02;
-        double ballVY = 0.01;
+        double ballVY = 0.02;
 
         StdDraw.enableDoubleBuffering();
         StdDraw.setTitle("Singleplayer Pong");
