@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b061fd05-ab1d-4e99-85b0-3ae9d9b791d3" name="Changes" comment="Ah yes">
-      <change afterPath="$PROJECT_DIR$/src/TwoPlayerPong.java" afterDir="false" />
+    <list default="true" id="b061fd05-ab1d-4e99-85b0-3ae9d9b791d3" name="Changes" comment="Working on 2 player pong">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoPlayerPong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPlayerPong.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669039912067</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Working on 2 player pong">
+      <created>1669049231966</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669049231966</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,7 +178,8 @@
     <MESSAGE value="Add pong game" />
     <MESSAGE value="Add comments to PongGame.java." />
     <MESSAGE value="Ah yes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ah yes" />
+    <MESSAGE value="Working on 2 player pong" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on 2 player pong" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DrawThingy$PongGame.ic" NAME="PongGame Coverage Results" MODIFIED="1669039807838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

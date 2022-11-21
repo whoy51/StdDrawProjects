@@ -6,8 +6,8 @@ public class TwoPlayerPong {
         // Initial values
         double ballX = 0.5;
         double ballY = 0.5;
-        double ballVX = 0.015;
-        double ballVY = 0.015;
+        double ballVX = 0.02;
+        double ballVY = 0;
 
         double paddle1VY = 0;
         double paddle1Y = 0.5;
@@ -25,9 +25,9 @@ public class TwoPlayerPong {
             if (StdDraw.isKeyPressed(87) && StdDraw.isKeyPressed(83)) {
                 paddle1VY = 0;
             }else if (StdDraw.isKeyPressed(87)) {
-                paddle1VY = 0.015;
+                paddle1VY = 0.025;
             }else if (StdDraw.isKeyPressed(83)) {
-                paddle1VY = -0.015;
+                paddle1VY = -0.025;
             }else {
                 paddle1VY = 0;
             }
@@ -35,9 +35,9 @@ public class TwoPlayerPong {
             if (StdDraw.isKeyPressed(38) && StdDraw.isKeyPressed(40)) {
                 paddle2VY = 0;
             }else if (StdDraw.isKeyPressed(38)) {
-                paddle2VY = 0.015;
+                paddle2VY = 0.025;
             }else if (StdDraw.isKeyPressed(40)) {
-                paddle2VY = -0.015;
+                paddle2VY = -0.025;
             }else {
                 paddle2VY = 0;
             }
@@ -46,7 +46,7 @@ public class TwoPlayerPong {
             if (ballX > 1 || ballX < 0) ballVX *= -1;
             if (ballY > 1 || ballY < 0) ballVY *= -1;
             // If hit left edge, die
-            if (ballX < 0) {
+            if (ballX < 0 || ballX > 1) {
                 StdDraw.clear();
                 StdDraw.setPenColor(Color.RED);
                 StdDraw.filledRectangle(0.5, 0.5, 0.5, 0.5);
@@ -59,10 +59,12 @@ public class TwoPlayerPong {
             }
             // If hit paddle, bounce
             if (ballX > 0.1 && ballX < 0.15 && Math.abs(ballY - paddle1Y) < 0.1) {
-                ballVX = 0.015;
+                ballVX = 0.02;
+                ballVY = (Math.random() - 0.5)/20;
             }
             if (ballX > 0.9 && ballX < 0.95 && Math.abs(ballY - paddle2Y) < 0.1) {
-                ballVX = -0.015;
+                ballVX = -0.02;
+                ballVY = (Math.random() - 0.5)/20;
             }
             // Move
             ballX += ballVX;
