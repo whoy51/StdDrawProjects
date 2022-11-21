@@ -9,6 +9,7 @@ public class TwoPlayerPong {
         double ballVX = 0.02;
         double ballVY = 0;
 
+        // paddle values
         double paddle1VY = 0;
         double paddle1Y = 0.5;
         double paddle2VY = 0;
@@ -31,7 +32,7 @@ public class TwoPlayerPong {
             }else {
                 paddle1VY = 0;
             }
-
+            // Paddle 2: up and down keys
             if (StdDraw.isKeyPressed(38) && StdDraw.isKeyPressed(40)) {
                 paddle2VY = 0;
             }else if (StdDraw.isKeyPressed(38)) {
@@ -45,7 +46,7 @@ public class TwoPlayerPong {
             // If hit edge, bounce
             if (ballX > 1 || ballX < 0) ballVX *= -1;
             if (ballY > 1 || ballY < 0) ballVY *= -1;
-            // If hit left edge, die
+            // If hit left or right edge, die
             if (ballX < 0 || ballX > 1) {
                 StdDraw.clear();
                 StdDraw.setPenColor(Color.RED);
@@ -60,11 +61,11 @@ public class TwoPlayerPong {
             // If hit paddle, bounce
             if (ballX > 0.1 && ballX < 0.15 && Math.abs(ballY - paddle1Y) < 0.1) {
                 ballVX = 0.02;
-                ballVY = (Math.random() - 0.5)/20;
+                ballVY = (Math.random() - 0.5)/25;
             }
             if (ballX > 0.85 && ballX < 0.9 && Math.abs(ballY - paddle2Y) < 0.1) {
                 ballVX = -0.02;
-                ballVY = (Math.random() - 0.5)/20;
+                ballVY = (Math.random() - 0.5)/25;
             }
             // Move
             ballX += ballVX;
@@ -78,6 +79,8 @@ public class TwoPlayerPong {
             StdDraw.setPenColor(Color.RED);
             StdDraw.filledCircle(ballX, ballY, 0.03);
             StdDraw.setPenColor(Color.MAGENTA);
+
+            // render rectangles
             StdDraw.filledRectangle(0.1, paddle1Y, 0.02, 0.1);
             StdDraw.filledRectangle(0.9, paddle2Y, 0.02, 0.1);
             StdDraw.pause(20);
