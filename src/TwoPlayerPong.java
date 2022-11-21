@@ -62,7 +62,7 @@ public class TwoPlayerPong {
                 ballVX = 0.02;
                 ballVY = (Math.random() - 0.5)/20;
             }
-            if (ballX > 0.9 && ballX < 0.95 && Math.abs(ballY - paddle2Y) < 0.1) {
+            if (ballX > 0.85 && ballX < 0.9 && Math.abs(ballY - paddle2Y) < 0.1) {
                 ballVX = -0.02;
                 ballVY = (Math.random() - 0.5)/20;
             }
