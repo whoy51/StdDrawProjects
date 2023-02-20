@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b061fd05-ab1d-4e99-85b0-3ae9d9b791d3" name="Changes" comment="fix" />
+    <list default="true" id="b061fd05-ab1d-4e99-85b0-3ae9d9b791d3" name="Changes" comment="fix">
+      <change afterPath="$PROJECT_DIR$/src/Draw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DrawListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Turtle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GraphicsFun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraphicsFun.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -26,23 +40,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Project.color&quot;: &quot;390450&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Project.color": "390450",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/9258830/IdeaProjects/StdDrawProjects",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\9258830\IdeaProjects\DrawThingy\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TwoPlayerPong">
+  <component name="RunManager" selected="Application.GraphicsFun">
     <configuration name="CircleAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CircleAlgorithm" />
       <module name="DrawThingy" />
@@ -50,15 +67,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ControlledBall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ControlledBall" />
-      <module name="DrawThingy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GravityBall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GravityBall" />
+    <configuration name="GraphicsFun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GraphicsFun" />
       <module name="DrawThingy" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -66,6 +76,13 @@
     </configuration>
     <configuration name="PongGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PongGame" />
+      <module name="DrawThingy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Turtle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Turtle" />
       <module name="DrawThingy" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -80,11 +97,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GraphicsFun" />
+        <item itemvalue="Application.Turtle" />
         <item itemvalue="Application.TwoPlayerPong" />
         <item itemvalue="Application.PongGame" />
         <item itemvalue="Application.CircleAlgorithm" />
-        <item itemvalue="Application.ControlledBall" />
-        <item itemvalue="Application.GravityBall" />
       </list>
     </recent_temporary>
   </component>
@@ -96,6 +113,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667221606959</updated>
+      <workItem from="1676915426523" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="Add code">
       <created>1668782166884</created>
@@ -169,6 +187,9 @@
     </task>
     <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

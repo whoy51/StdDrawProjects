@@ -2,7 +2,7 @@ import java.awt.*;
 
 public class GraphicsFun {
     public static void main(String[] args) {
-        final int NUM_CIRCLES = 100000;
+        final int NUM_CIRCLES = 10000;
         int count = 0;
         StdDraw.enableDoubleBuffering();
         while (count < NUM_CIRCLES){
